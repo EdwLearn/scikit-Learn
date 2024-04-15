@@ -1,0 +1,8 @@
+name: scikit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - cookiecutter
+prefix: /home/edwlearn/anaconda3/envs/scikit
