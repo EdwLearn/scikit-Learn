@@ -3,6 +3,7 @@ import os
 
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -48,8 +49,6 @@ if __name__ == '__main__':
     
     
     # Graficando usando PCA
-    
-    from sklearn.decomposition import PCA
     
     X['cluster'] = kmeans.predict(X)
 
