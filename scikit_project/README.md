@@ -14,11 +14,14 @@ hemos "partido" este proyecto en 3 secciones principales:
 
 El proyecto está organizado de la siguiente manera:
 
-scripts: Esta carpeta contiene archivos Python .py que contienen código para diferentes partes del proyecto.
-notebooks: Aquí encontrarás archivos de Jupyter Notebook .ipynb que también contienen código relacionado con el proyecto.
-Ambas carpetas contienen la misma información y funcionalidad; sin embargo, se han separado de esta manera para mayor comodidad del lector. Los archivos en la carpeta scripts están en formato .py, lo que facilita su ejecución en un entorno de desarrollo de Python estándar. Mientras tanto, los archivos en la carpeta notebooks están en formato de cuaderno Jupyter, lo que permite una exploración interactiva y la capacidad de documentar el proceso paso a paso.
+- **scripts:** Esta carpeta contiene archivos Python `.py` que contienen código para diferentes partes del proyecto.
 
-Además, estos archivos contienen experimentos de modelos de Machine Learning con scikit-learn. Desde modelos PCA hasta modelos de randomized, donde se busca el modelo más efectivo para el problema específico abordado en el proyecto.
+- **notebooks:** Aquí encontrarás archivos de Jupyter Notebook `.ipynb` que también contienen código relacionado con el proyecto.
+
+Ambas carpetas contienen la misma información y funcionalidad; sin embargo, se han separado de esta manera para mayor comodidad del lector. Los archivos en la carpeta `scripts` están en formato `.py`, lo que facilita su ejecución en un entorno de desarrollo de Python estándar. Mientras tanto, los archivos en la carpeta `notebooks` están en formato de cuaderno Jupyter, lo que permite una exploración interactiva y la capacidad de documentar el proceso paso a paso.
+
+Además, cada archivo está explicado y comentado en detalle para una mayor comprensión del lector. Los comentarios en el código explican la lógica detrás de cada paso, los parámetros utilizados y cualquier otra información relevante que ayude a entender el funcionamiento de los modelos de Machine Learning implementados.
+
 
 
 
