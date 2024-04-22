@@ -42,7 +42,7 @@ hemos "partido" este proyecto en 3 secciones principales:
 
 
 
-## Instalación
+## Instalación y Despliegue con Flask
 
 Para clonar este repositorio en tu máquina local, sigue estos pasos:
 
