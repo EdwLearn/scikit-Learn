@@ -40,23 +40,3 @@ hemos "partido" este proyecto en 3 secciones principales:
     │
     └── server.py          <- run server.py in console to run the local server
 
-
-## Instalación
-
-Para clonar este repositorio en tu máquina local, sigue estos pasos:
-
-```bash
-git clone https://github.com/EdwLearn/scikit-Learn
-```
-
-## Ejecutar el Proyecto
-
-Este proyecto ya incluye un entorno virtual de Conda con todas las bibliotecas necesarias. Para ejecutar el proyecto, activa el entorno virtual y luego ejecuta el siguiente comando:
-
-```bash
-conda activate scikit
-python main.py
-```
-Si tienes alguna duda sobre las librerias, explora el archivo de requeriments.txt
-
-¡Listo! Ahora puedes explorar y modificar el código según tus necesidades.
