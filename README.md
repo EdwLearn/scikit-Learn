@@ -41,11 +41,6 @@ hemos "partido" este proyecto en 3 secciones principales:
     └── server.py          <- run server.py in console to run the local server
 
 
-    ## Instalación
-
-Claro, aquí está la sección actualizada del `readme.md` con las instrucciones para crear un entorno virtual con Conda o con el entorno virtual por defecto de Python, y también menciona que las bibliotecas necesarias están listadas en `requirements.txt`:
-
----
 
 ## Instalación
 
