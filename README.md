@@ -103,7 +103,7 @@ Para clonar este repositorio en tu máquina local, sigue estos pasos:
 Una vez que hayas configurado el entorno virtual y hayas instalado las dependencias, puedes ejecutar el proyecto ejecutando el siguiente comando:
 
 ```bash
-python main.py
+python server.py
 ```
 
 Este comando iniciará la ejecución del proyecto y podrás ver los resultados en la consola.
