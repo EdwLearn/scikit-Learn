@@ -1,26 +1,25 @@
 
-# Exploración y Despliegue a producción con Scikit-Learn
+# Exploration and Production Deployment with Scikit-Learn
 
-Este proyecto se ha implementado utilizando la potente biblioteca de machine learning, scikit-learn para hacer una exploración de diferentes modelos de Machine Learning, autamatizado para buscar el más eficaz en nuestros diferentes conjuntos de datos. 
+This project has been implemented using the powerful machine learning library, scikit-learn, to explore different machine learning models, automated to search for the most effective one across our various datasets.
 
-Para garantizar un entorno de desarrollo limpio y reproducible, 
-hemos "partido" este proyecto en 3 secciones principales:
+To ensure a clean and reproducible development environment, we have "partitioned" this project into 3 main sections:
 
-1) Entorno Virtual y Esquema de el proyecto
-2) Técnicas de Machine Learning Con Scikit-Learn
-3) Despliegue en producción con Flask
+1) Virtual Environment and Project Schema
+2) Machine Learning Techniques with Scikit-Learn
+3) Production Deployment with Flask
 
-## Técnicas de Machine Learning Con Scikit-Learn 
+## Machine Learning Techniques with Scikit-Learn 
 
-El proyecto está organizado de la siguiente manera:
+The project is organized as follows:
 
-- **scripts:** Esta carpeta contiene archivos Python `.py` que contienen código para diferentes partes del proyecto.
+- **scripts:** This folder contains Python files `.py` that contain code for different parts of the project.
 
-- **notebooks:** Aquí encontrarás archivos de Jupyter Notebook `.ipynb` que también contienen código relacionado con el proyecto.
+- **notebooks:** Here you will find Jupyter Notebook files `.ipynb` that also contain code related to the project.
 
-Ambas carpetas contienen la misma información y funcionalidad; sin embargo, se han separado de esta manera para mayor comodidad del lector. Los archivos en la carpeta `scripts` están en formato `.py`, lo que facilita su ejecución en un entorno de desarrollo de Python estándar. Mientras tanto, los archivos en la carpeta `notebooks` están en formato de cuaderno Jupyter, lo que permite una exploración interactiva y la capacidad de documentar el proceso paso a paso.
+Both folders contain the same information and functionality; however, they have been separated in this way for the reader's convenience. The files in the `scripts` folder are in `.py` format, making them easy to execute in a standard Python development environment. Meanwhile, the files in the `notebooks` folder are in Jupyter notebook format, allowing for interactive exploration and the ability to document the process step by step.
 
-Además, cada archivo está explicado y comentado en detalle para una mayor comprensión del lector. Los comentarios en el código explican la lógica detrás de cada paso, los parámetros utilizados y cualquier otra información relevante que ayude a entender el funcionamiento de los modelos de Machine Learning implementados.
+Additionally, each file is explained and commented in detail for a better understanding by the reader. Comments in the code explain the logic behind each step, the parameters used, and any other relevant information that helps understand the functioning of the implemented machine learning models.
 
 
 
