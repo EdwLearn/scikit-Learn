@@ -1,62 +1,56 @@
-# Exploración y Despliegue a producción con Scikit-Learn
+# Exploration and Production Deployment with Scikit-Learn
 
-Este proyecto se ha implementado utilizando la potente biblioteca de machine learning, scikit-learn para hacer una exploración de diferentes modelos de Machine Learning, autamatizado para buscar el más eficaz en nuestros diferentes conjuntos de datos. 
+This project has been implemented using the powerful machine learning library, scikit-learn, to explore different machine learning models, automated to find the most effective one across our various datasets.
 
-Para garantizar un entorno de desarrollo limpio y reproducible, 
-hemos "partido" este proyecto en 3 secciones principales:
+To ensure a clean and reproducible development environment, we have "partitioned" this project into 3 main sections:
 
-1) Entorno Virtual y Esquema de el proyecto
-2) Técnicas de Machine Learning Con Scikit-Learning
-3) Despliegue en producción con Flask
-
+1) Virtual Environment and Project Structure
+2) Machine Learning Techniques with Scikit-Learn
+3) Production Deployment with Flask
 
 ## Roadmap Project Organization
 
-
 ------------
-
 
     ├── README.md          <- The top-level README for developers using this project.
     ├── data               <- Data for this project
     │
-    ├── files               <- A Explained Data for this project
+    ├── files               <- An Explained Data for this project
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks.
     │
-    ├── scripts            <- Pythin Scripts, same than notebooks but with another format
+    ├── scripts            <- Python Scripts, same as notebooks but with another format
     │
     │
-    ├── tools              <- Script tool for this project, read csv, create the analysis, for automatitation
+    ├── tools              <- Script tool for this project, read csv, create the analysis, for automatization
     │
     │
-    ├── enviroment.yml     <- If you want install same Environment 
+    ├── environment.yml    <- If you want to install the same Environment 
     
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── main.py            <- run main.py in console to run the analysis
+    ├── main.py            <- Run main.py in console to run the analysis
     │
-    └── server.py          <- run server.py in console to run the local server
+    └── server.py          <- Run server.py in console to run the local server
 
+## Installation and Deployment with Flask
 
+To clone this repository to your local machine, follow these steps:
 
-## Instalación y Despliegue con Flask
+1. Open your terminal.
 
-Para clonar este repositorio en tu máquina local, sigue estos pasos:
-
-1. Abre tu terminal.
-
-2. Utiliza el comando `git clone` seguido de la URL del repositorio para clonarlo en tu máquina local. Ejecuta el siguiente comando:
+2. Use the `git clone` command followed by the repository URL to clone it to your local machine. Run the following command:
 
     ```bash
     git clone https://github.com/EdwLearn/scikit-Learn
     ```
 
-3. Abre una terminal y navega hasta el directorio del repositorio clonado.
+3. Open a terminal and navigate to the directory of the cloned repository.
 
-4. Crea un entorno virtual usando Conda o el entorno virtual por defecto de Python:
+4. Create a virtual environment using Conda or Python's default virtual environment:
 
     - **Conda:**
     
@@ -64,13 +58,13 @@ Para clonar este repositorio en tu máquina local, sigue estos pasos:
         conda create --name scikit python=3.9
         ```
     
-    - **Entorno virtual de Python:**
+    - **Python's Virtual Environment:**
     
         ```bash
         python3 -m venv scikit
         ```
 
-5. Activa el entorno virtual recién creado:
+5. Activate the newly created virtual environment:
 
     - **Conda:**
     
@@ -78,35 +72,35 @@ Para clonar este repositorio en tu máquina local, sigue estos pasos:
         conda activate scikit
         ```
 
-    - **Entorno virtual de Python (en Linux/Mac):**
+    - **Python's Virtual Environment (on Linux/Mac):**
     
         ```bash
         source scikit/bin/activate
         ```
 
-        **Entorno virtual de Python (en Windows):**
+        **Python's Virtual Environment (on Windows):**
     
         ```bash
         .\scikit\Scripts\activate
         ```
 
-6. Instala las dependencias necesarias utilizando `pip` y el archivo `requirements.txt`:
+6. Install the necessary dependencies using `pip` and the `requirements.txt` file:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-    Esto asegurará que todas las bibliotecas necesarias estén instaladas correctamente en tu entorno virtual.
+    This will ensure that all required libraries are properly installed in your virtual environment.
 
-## Ejecutar el Proyecto
+## Running the Project
 
-Una vez que hayas configurado el entorno virtual y hayas instalado las dependencias, puedes ejecutar el proyecto ejecutando el siguiente comando:
+Once you have set up the virtual environment and installed the dependencies, you can run the project by executing the following command:
 
 ```bash
 python server.py
 ```
 
-Este comando iniciará la ejecución del proyecto y podrás ver los resultados en la consola.
+This command will start the project execution, and you can view the results in the console.
 
-Además, si deseas ver el resultado en el servidor local, visita http://localhost:8080/predict en tu navegador web una vez que el proyecto esté en ejecución.
+Additionally, if you wish to view the result on the local server, visit http://localhost:8080/predict in your web browser once the project is running.
 
